@@ -13,5 +13,9 @@
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
-  }
+  },
+  "browserslist":[
+    "defaults",
+    "last 2 versions"
+  ]
 }
