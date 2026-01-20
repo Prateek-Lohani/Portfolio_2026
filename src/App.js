@@ -1,7 +1,8 @@
 const App=()=>{
     return (
         <>
-        App
+        <div className="bg-grid"></div>
+        <h2>AppSSSSSSSSSSSSS</h2>
         </>
     )
 }
