@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "portfolio_2026",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "dev":"npx parcel index.html"
   },
   "author": "Prateek Lohani",
   "license": "ISC",
