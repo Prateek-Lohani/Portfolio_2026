@@ -1,8 +1,10 @@
+import Nav from "./components/Navigation/Nav";
+
 const App=()=>{
     return (
         <>
         <div className="bg-grid"></div>
-        <h2>AppSSSSSSSSSSSSS</h2>
+        <Nav/>
         </>
     )
 }
