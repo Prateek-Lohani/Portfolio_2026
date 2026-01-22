@@ -3,9 +3,10 @@ import AvailabilityBadge from "./AvailabilityBadge";
 const Hero = () => {
   return (
     <section id="home" className="w-full h-screen py-[5%] px-[7%]">
-
-        <AvailabilityBadge/>
-      <h2 className="text-8xl font-bold w-[70%] tracking-tight leading-[1.2]">
+      <AvailabilityBadge />
+      <h2
+        className="text-6xl md:text-7xl lg:text-8xl font-bold w-[70%] tracking-tight leading-[1.2]"
+      >
         Crafting <br />
         <span className="text-indigo-600">Digital Experiences</span> <br />
         That Make an Impact
