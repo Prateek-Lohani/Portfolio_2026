@@ -1,17 +1,11 @@
-const Nav = () => {
-  const items = [
-    { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Experience", href: "#experience" },
-    { label: "Projects", href: "#projects" },
-    { label: "Contact", href: "#contact" },
-  ];
+import { portfolioData } from "../data/portfolioData";
 
+const Nav = () => {
   return (
     <section>
       <nav className="z-[999] hidden md:flex flex items-center justify-center w-full">
-        <ul className="flex px-10 py-4 text-white font-medium text-md bottom-6 fixed  rounded-4xl justify-center gap-12 border border-indigo-600">
-          {items.map(({ label, href }) => (
+        <ul className="flex px-10 py-4 text-white font-medium text-md bottom-6 fixed rounded-4xl justify-center gap-12 border border-[#4C36EF] shadow-md shadow-indigo-500/50">
+          {portfolioData.navigation.map(({ label, href }) => (
             <li key={label}>
               <a
                 href={href}
