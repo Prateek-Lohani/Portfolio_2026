@@ -1,24 +1,22 @@
 @import "tailwindcss";
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 html,
 body {
   width: 100%;
-  height: 100%;
+  height: 300vh;
   position: relative;
   background-color: #050505;
   color:white;
-  font-family: "DM Sans","DM Sans Placeholder","sans-serif";
-  overflow: hidden;
+  font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .bg-grid {
-  position: absolute;
+  position: fixed;
   inset: 0;
   background-image:
     linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
@@ -26,6 +24,10 @@ body {
   background-size: 60px 60px;
   animation: gridMove 20s linear infinite;
   z-index: 1;
+  width: 100%;
+  pointer-events: none;
+  height: 100%;
+  overflow: hidden;
 }
 
 @keyframes gridMove {
@@ -35,4 +37,15 @@ body {
   100% {
     transform: translate(60px, 60px);
   }
+}
+
+body::-webkit-scrollbar{
+  width:6px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #ffff;
+  border-radius: 999;
+
 }
