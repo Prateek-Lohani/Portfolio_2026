@@ -43,7 +43,7 @@ const Experience=()=>{
 
 
     return (
-    <div id="experience" className="min-h-screen bg-black py-12 px-4 sm:px-6 lg:px-8">
+    <div id="experience" className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="h-32">
         <h1 className="w-full text-center text-6xl font-semibold">Work Experience</h1>
         <p className="w-full text-center text-indigo-200 mt-2 mb-8">My Professional Journey</p>
@@ -99,7 +99,12 @@ const Experience=()=>{
 
                     {/* Logo */}
                     <div className="flex-shrink-0 w-48 h-32 rounded-lg flex items-center justify-center">
-                        <img src={`/assets/companies/${exp.logo}`} className="object-contain max-w-full max-h-full" />
+                        <img 
+                        onLoad={(e) => {
+    console.error('Image failed to load:', e.currentTarget.src);
+    e.currentTarget.style.opacity = '0.4';
+  }}
+                       src={`./assets/companies/${exp.logo}`} className="object-contain max-w-full max-h-full" />
                     </div>
                   </div>
                 </div>
