@@ -4,20 +4,21 @@
   "description": "portfolio_2026",
   "scripts": {
     "test": "npm run test",
-    "dev": "npx parcel index.html",
-    "build": "npx parcel build index.html"
+    "dev": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
   },
   "author": "Prateek Lohani",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.16.3",
-    "parcel-reporter-static-files-copy": "^1.5.3"
+    "parcel": "^2.16.3"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
+    "file-loader": "^6.2.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.1.18",
+    "url-loader": "^4.1.1"
   },
   "browserslist": [
     "defaults",

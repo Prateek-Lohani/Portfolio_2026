@@ -1,5 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { portfolioData } from "../data/portfolioData";
+import infyLogo from "url:../assets/companies/infy.png";
+import tcsLogo from "url:../assets/companies/tcs.png";
+import hashedInLogo from "url:../assets/companies/hashedin-logo.png";
+
 
 const Experience=()=>{
   const [visibleItems, setVisibleItems] = useState(new Set());
@@ -40,7 +44,11 @@ const Experience=()=>{
   }, []);
 
 
-
+  const logoMap = {
+  "infy.png": infyLogo,
+  "tcs.png": tcsLogo,
+  "hashedin-logo.png": hashedInLogo,
+};
 
     return (
     <div id="experience" className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
@@ -64,7 +72,7 @@ const Experience=()=>{
               {/* Header Card */}
               <div className="bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-t-lg px-8 py-4">
                 <h2 className="text-2xl text-white">
-                  {exp.designation} <span className="italic font-light">{exp.company}</span>
+                  {exp.designation} <span className=" font-light">{exp.company}</span>
                 </h2>
               </div>
 
@@ -100,11 +108,7 @@ const Experience=()=>{
                     {/* Logo */}
                     <div className="flex-shrink-0 w-48 h-32 rounded-lg flex items-center justify-center">
                         <img 
-                        onLoad={(e) => {
-    console.error('Image failed to load:', e.currentTarget.src);
-    e.currentTarget.style.opacity = '0.4';
-  }}
-                       src={`./assets/companies/${exp.logo}`} className="object-contain max-w-full max-h-full" />
+                       src={logoMap[exp.logo]} className="object-contain max-w-full max-h-full"  />
                     </div>
                   </div>
                 </div>
