@@ -1,16 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { portfolioData } from "../data/portfolioData";
 
-// Then create a logo map
-const logoMap = {
-  
-};
-
-
-
-
 const Experience=()=>{
-        const [visibleItems, setVisibleItems] = useState(new Set());
+  const [visibleItems, setVisibleItems] = useState(new Set());
   const observerRef = useRef(null);
 
   useEffect(() => {

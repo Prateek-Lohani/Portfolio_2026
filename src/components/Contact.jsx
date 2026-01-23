@@ -1,3 +1,4 @@
+import { portfolioData } from "../data/portfolioData";
 
 const Contact=()=>{
     return (
