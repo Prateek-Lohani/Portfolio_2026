@@ -90,7 +90,7 @@ const Experience=()=>{
                   </div>
 
                   {/* Description */}
-                  <div className="flex gap-8">
+                  <div className="flex gap-8 flex-col md:flex-row">
                     <div className="flex-1">
                       <p className="text-gray-300 leading-relaxed">
                         {exp.desc}

@@ -21,7 +21,7 @@ const Nav = () => {
                 </span>
 
                 {/* hover text */}
-                <span className="absolute left-0 top-0 block translate-y-[120%] transition-transform duration-[450ms] ease-[cubic-bezier(0.4,0,0.2,1)] group-hover:translate-y-0 text-indigo-500">
+                <span className="underline absolute left-0 top-0 block translate-y-[120%] transition-transform duration-[450ms] ease-[cubic-bezier(0.4,0,0.2,1)] group-hover:translate-y-0 text-indigo-500">
                   {label}
                 </span>
               </a>
