@@ -2,7 +2,7 @@ import AvailabilityBadge from "./AvailabilityBadge";
 
 const Hero = () => {
   return (
-    <section id="home" className="w-full h-screen py-[5%] px-[7%]">
+    <section id="about" className="w-full h-screen py-[5%] px-[7%]">
       <AvailabilityBadge />
       <h2
         className="text-6xl md:text-7xl lg:text-8xl font-bold w-[70%] tracking-tight leading-[1.2]"
