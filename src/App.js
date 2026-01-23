@@ -1,13 +1,13 @@
 import React, { Suspense } from "react";
-import BackgroundGrid from "./components/BackgroundGrid";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import Loader from "./components/Loader";
 
 const Experience = React.lazy(() => import('./components/Experience'));
+const BackgroundGrid= React.lazy(() => import('./components/BackgroundGrid'));
+const Nav= React.lazy(() => import('./components/Nav'));
+const Hero= React.lazy(() => import('./components/Hero'));
+const Projects= React.lazy(() => import('./components/Projects'));
+const Contact= React.lazy(() => import('./components/Contact'));
+const Footer= React.lazy(() => import('./components/Footer'));
 
 const App=()=>{
 

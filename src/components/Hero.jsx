@@ -8,7 +8,7 @@ const Hero = () => {
         className="text-6xl md:text-7xl lg:text-8xl font-bold w-[70%] tracking-tight leading-[1.2]"
       >
         Crafting <br />
-        <span className="text-indigo-600">Digital Experiences</span> <br />
+        <span className="text-indigo-600 text-shadow-current text-shadow-lg/25">Digital Experiences</span> <br />
         That Make an Impact
       </h2>
       <section className="flex items-center justify-start gap-14 mt-10">
