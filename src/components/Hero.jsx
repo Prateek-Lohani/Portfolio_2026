@@ -19,7 +19,7 @@ const Hero = () => {
           polished, and purposeful.
         </p>
         <section className="flex items-center w-[25%] justify-center ">
-          <button className="cursor-pointer bg-gradient-to-b from-indigo-600 to-indigo-700 shadow-[0px_4px_32px_0_rgba(99,102,241,.70)] px-8 py-3 rounded-xl border-[1px] border-slate-500 text-white font-medium group">
+          <button className="cursor-pointer bg-gradient-to-b from-indigo-500 to-indigo-800 shadow-[0px_6px_30px_0_rgba(99,102,241,.70)] px-8 py-3 rounded-xl border-[1px] border-slate-500 text-white font-medium group">
             <div className="relative overflow-hidden">
               <p className="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
                 View Resume

@@ -10,6 +10,7 @@ import Loader from "./components/Loader";
 const Experience = React.lazy(() => import('./components/Experience'));
 
 const App=()=>{
+
     return (
         <>
         <Suspense fallback={<Loader/>}>
