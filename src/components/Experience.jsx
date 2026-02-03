@@ -4,7 +4,6 @@ import infyLogo from "url:../assets/companies/infy.png";
 import tcsLogo from "url:../assets/companies/tcs.png";
 import hashedInLogo from "url:../assets/companies/hashedin-logo.png";
 
-
 const Experience=()=>{
   const [visibleItems, setVisibleItems] = useState(new Set());
   const observerRef = useRef(null);
