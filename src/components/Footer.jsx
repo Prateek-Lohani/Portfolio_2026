@@ -33,7 +33,7 @@ const Footer = () => {
         <span className="animate-pulse">:</span>
         {minutes} {period.toUpperCase()}
       </p>
-      <p className="flex text-sm items-center">
+      <p className="flex text-sm text-white items-center hover:cursor-pointer">
         Copyright © Prateek Lohani - 2026
       </p>
     </section>

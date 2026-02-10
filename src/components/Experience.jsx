@@ -68,17 +68,14 @@ const Experience=()=>{
                   : 'opacity-0 translate-y-8'
               }`}
             >
-              {/* Header Card */}
               <div className="bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-t-lg px-8 py-4">
                 <h2 className="text-2xl text-white">
                   {exp.designation} <span className=" font-light">{exp.company}</span>
                 </h2>
               </div>
 
-              {/* Content Card */}
               <div className="rounded-b-lg">
                 <div className="px-8 py-6">
-                  {/* Meta Info Row */}
                   <div className="flex items-center justify-between text-sm text-indigo-200 mb-6 pb-6 border-b border-gray-700">
                     <div className="flex items-center gap-2">
                       <span>{exp.location}</span>
