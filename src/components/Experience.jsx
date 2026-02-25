@@ -50,10 +50,10 @@ const Experience=()=>{
 };
 
     return (
-    <div id="experience" className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
-      <div className="h-32">
-        <h1 className="w-full text-center text-6xl font-semibold">Work Experience</h1>
-        <p className="w-full text-center text-indigo-200 mt-2 mb-8">My Professional Journey</p>
+    <div id="experience" className="min-h-screen py-8 sm:py-12 px-3 sm:px-4 md:px-6 lg:px-8">
+      <div className="h-auto sm:h-32 mb-6 sm:mb-0">
+        <h1 className="w-full text-center text-3xl sm:text-5xl md:text-6xl font-semibold">Work Experience</h1>
+        <p className="w-full text-center text-indigo-200 text-sm sm:text-base mt-2 mb-6 sm:mb-8">My Professional Journey</p>
       </div>
       
       <div className="max-w-6xl mx-auto">
@@ -68,41 +68,41 @@ const Experience=()=>{
                   : 'opacity-0 translate-y-8'
               }`}
             >
-              <div className="bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-t-lg px-8 py-4">
-                <h2 className="text-2xl text-white">
+              <div className="bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-t-lg px-4 sm:px-6 md:px-8 py-3 sm:py-4">
+                <h2 className="text-lg sm:text-xl md:text-2xl text-white">
                   {exp.designation} <span className=" font-light">{exp.company}</span>
                 </h2>
               </div>
 
               <div className="rounded-b-lg">
-                <div className="px-8 py-6">
-                  <div className="flex items-center justify-between text-sm text-indigo-200 mb-6 pb-6 border-b border-gray-700">
+                <div className="px-4 sm:px-6 md:px-8 py-4 sm:py-6">
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between text-xs sm:text-sm text-indigo-200 mb-4 sm:mb-6 pb-4 sm:pb-6 border-b border-gray-700 gap-3 sm:gap-2">
                     <div className="flex items-center gap-2">
                       <span>{exp.location}</span>
                     </div>
-                    <div>
+                    <div className="whitespace-nowrap">
                       <span>{exp.from} - {exp.to}</span>
                     </div>
                     <a
                       href={exp.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className=" hover:text-indigo-400 transition-colors"
+                      className=" hover:text-indigo-400 transition-colors truncate"
                     >
                       {exp.website}
                     </a>
                   </div>
 
                   {/* Description */}
-                  <div className="flex gap-8 flex-col md:flex-row">
+                  <div className="flex gap-4 sm:gap-6 md:gap-8 flex-col md:flex-row">
                     <div className="flex-1">
-                      <p className="text-gray-300 leading-relaxed">
+                      <p className="text-xs sm:text-sm md:text-base text-gray-300 leading-relaxed">
                         {exp.desc}
                       </p>
                     </div>
 
                     {/* Logo */}
-                    <div className="flex-shrink-0 w-48 h-32 rounded-lg flex items-center justify-center">
+                    <div className="flex-shrink-0 w-24 h-20 sm:w-32 sm:h-24 md:w-48 md:h-32 rounded-lg flex items-center justify-center">
                         <img 
                        src={logoMap[exp.logo]} className="object-contain max-w-full max-h-full"  />
                     </div>

@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <section>
       <nav className="z-[99] hidden md:flex flex fixed items-center justify-center w-full">
-        <ul className="flex px-10 py-4 text-white font-medium text-md bottom-6 fixed rounded-4xl justify-center gap-12 
+        <ul className="flex px-4 sm:px-6 md:px-8 lg:px-10 py-3 sm:py-4 text-white font-medium text-xs sm:text-sm md:text-base lg:text-md bottom-4 sm:bottom-6 fixed rounded-3xl sm:rounded-4xl justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-12 
         bg-black/40 backdrop-blur-md backdrop-saturate-150
         border border-[#4C36EF] shadow-md shadow-indigo-500/50
         
