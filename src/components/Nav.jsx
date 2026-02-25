@@ -3,8 +3,8 @@ import { portfolioData } from "../data/portfolioData";
 const Nav = () => {
   return (
     <section>
-      <nav className="z-[99] hidden md:flex flex fixed items-center justify-center w-full">
-        <ul className="flex px-10 py-4 text-white font-medium text-md bottom-6 fixed rounded-4xl justify-center gap-12 
+      <nav className="z-[99] md:flex flex fixed items-center justify-center w-full">
+        <ul className="flex px-6 lg:px-10 py-3 sm:py-4 text-white font-medium text-xs sm:text-sm md:text-base lg:text-md bottom-4 sm:bottom-6 fixed rounded-3xl sm:rounded-4xl justify-center gap-5 sm:gap-6 md:gap-8 lg:gap-12 
         bg-black/40 backdrop-blur-md backdrop-saturate-150
         border border-[#4C36EF] shadow-md shadow-indigo-500/50
         
@@ -21,7 +21,7 @@ const Nav = () => {
                 </span>
 
                 {/* hover text */}
-                <span className="underline absolute left-0 top-0 block translate-y-[120%] transition-transform duration-[450ms] ease-[cubic-bezier(0.4,0,0.2,1)] group-hover:translate-y-0 text-indigo-500">
+                <span className="hidden md:block underline absolute left-0 top-0 block translate-y-[120%] transition-transform duration-[450ms] ease-[cubic-bezier(0.4,0,0.2,1)] group-hover:translate-y-0 text-indigo-500">
                   {label}
                 </span>
               </a>
