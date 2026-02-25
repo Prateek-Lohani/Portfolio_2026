@@ -12,7 +12,7 @@ const Hero = () => {
         That Make an Impact
       </h2>
       <section className="flex flex-col  md:flex-row md:items-center md:justify-start gap-10 md:gap-14 md:mt-10">
-        <p className="text-[15px] md:text-lg md:w-[65%] text-gray-300">
+        <p className="text-[15px] px-1 md:px-0 md:text-lg md:w-[65%] text-gray-300">
           4.5 years of turning complex ideas into clean, high-performance web
           applications. Deep experience with React, Redux, and modern frontend
           architecture, focused on building intuitive interfaces that feel fast,

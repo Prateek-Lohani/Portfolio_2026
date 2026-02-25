@@ -30,18 +30,6 @@ body {
   overflow: hidden;
 }
 
-@media (min-width: 640px) {
-  .bg-grid {
-    background-size: 50px 50px;
-  }
-}
-
-@media (min-width: 768px) {
-  .bg-grid {
-    background-size: 60px 60px;
-  }
-}
-
 @keyframes gridMove {
   0% {
     transform: translate(0, 0);
