@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import Loader from "./components/Loader";
+import Skills from "./components/Skills";
 
 const Experience = React.lazy(() => import('./components/Experience'));
 const BackgroundGrid= React.lazy(() => import('./components/BackgroundGrid'));
@@ -17,6 +18,7 @@ const App=()=>{
         <BackgroundGrid/>
         <Nav/>
         <Hero/>
+        <Skills/>
         <Projects/>
         <Experience/>
         <Contact/>

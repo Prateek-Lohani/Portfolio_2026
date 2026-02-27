@@ -56,7 +56,7 @@ const Experience=()=>{
         <p className="w-full text-center text-indigo-200 text-sm sm:text-base mt-2 mb-6 sm:mb-8">My Professional Journey</p>
       </div>
       
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="space-y-6">
           {portfolioData.experience.map((exp, index) => (
             <div
