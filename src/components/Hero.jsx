@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import AvailabilityBadge from "./AvailabilityBadge";
 import Resume from "./Resume";
 import { heroHeaders } from "../data/heroHeaders";
+import ProfileCard from "./ProfileCard";
 
 const Hero = () => {
   const [showResume, setShowResume] = useState(false);
+  const [showProfileCard, setShowProfileCard] = useState(false);
   const [currentHeader, setCurrentHeader] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -47,7 +49,7 @@ const Hero = () => {
           architecture, focused on building intuitive interfaces that feel fast,
           polished, and purposeful.
         </p>
-        <section className="flex items-center md:w-[25%] justify-center p-[10]">
+        <section className="flex gap-10 items-center md:w-[25%] justify-center p-[10]">
           <button
             className="cursor-pointer bg-gradient-to-b from-indigo-500 to-indigo-800 shadow-[0px_6px_30px_0_rgba(99,102,241,.70)] px-8 py-3 rounded-xl border-[1px] border-slate-500 text-white font-medium group"
             onClick={() => setShowResume(true)}
@@ -61,9 +63,23 @@ const Hero = () => {
               </p>
             </div>
           </button>
+          <button
+            className="cursor-pointer bg-gradient-to-b from-indigo-500 to-indigo-800 shadow-[0px_6px_30px_0_rgba(99,102,241,.70)] px-8 py-3 rounded-xl border-[1px] border-slate-500 text-white font-medium group"
+            onClick={() => setShowProfileCard(true)}
+          >
+            <div className="relative overflow-hidden">
+              <p className="group-hover:-translate-y-7 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
+                Profile Card
+              </p>
+              <p className="hidden md:block md:absolute top-7 left-0 group-hover:top-0 duration-[1.125s] ease-[cubic-bezier(0.19,1,0.22,1)]">
+                Profile Card
+              </p>
+            </div>
+          </button>
         </section>
 
         {showResume && <Resume setShowResume={setShowResume} />}
+        {showProfileCard && <ProfileCard setShowProfileCard={setShowProfileCard} />}
       </section>
     </section>
   );
