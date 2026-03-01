@@ -9,7 +9,6 @@ import gitIcon from "url:../../public/assets/skills/git.png";
 import jiraIcon from "url:../../public/assets/skills/jira.png";
 import parcelIcon from "url:../../public/assets/skills/parcel.png";
 import gsapIcon from "url:../../public/assets/skills/gsap.svg";
-import vsIcon from "url:../../public/assets/skills/vs.png";
 import azureIcon from "url:../../public/assets/skills/azure.png";
 import bitbucketIcon from "url:../../public/assets/skills/bitbucket.png";
 import nodeIcon from "url:../../public/assets/skills/nodejs.png";
@@ -18,6 +17,7 @@ import expressIcon from "url:../../public/assets/skills/expressjs.png";
 import mysqlIcon from "url:../../public/assets/skills/mysql.png";
 import muiIcon from "url:../../public/assets/skills/mui.png";
 import viteIcon from "url:../../public/assets/skills/vite.svg";
+import mongodbIcon from "url:../../public/assets/skills/mongodb.png";;
 
 export const iconMap = {
   "react.png": reactIcon,
@@ -31,7 +31,6 @@ export const iconMap = {
   "jira.png": jiraIcon,
   "parcel.png": parcelIcon,
   "gsap.svg": gsapIcon,
-  "vs.png": vsIcon,
   "azure.png": azureIcon,
   "bitbucket.png": bitbucketIcon,
   "nodejs.png": nodeIcon,
@@ -40,4 +39,5 @@ export const iconMap = {
   "mysql.png": mysqlIcon,
   "mui.png": muiIcon,
   "vite.svg": viteIcon,
+  "mongodb.png":mongodbIcon
 };
