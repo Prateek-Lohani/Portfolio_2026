@@ -40,21 +40,25 @@ export const portfolioData = {
   socials: [
     {
       id: 0,
+      name: "GitHub",
       icon: "github.png",
       href: "https://github.com/Prateek-Lohani",
     },
     {
       id: 1,
+      name: "LinkedIn",
       icon: "linkedin.png",
       href: "https://www.linkedin.com/in/prateeklohani/",
     },
     {
       id: 2,
+      name: "Twitter",
       icon: "twitter.png",
       href: "https://twitter.com/PrateekLohani4",
     },
     {
       id: 3,
+      name: "Email",
       icon: "gmail.png",
       href: "mailto:prateeklohani@gmail.com",
     },
