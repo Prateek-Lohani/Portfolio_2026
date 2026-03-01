@@ -40,7 +40,7 @@ const Resume=({setShowResume})=>
               fetchPriority="high"
               onLoad={() => setCurrentQuality('high')}
             />
-            <div onClick={()=>setShowResume(false)} className='z-99999 absolute bottom-18 md:top-5 md:right-[-20] hover:cursor-pointer hover:text-[red]'>X</div>
+            <div onClick={()=>setShowResume(false)} className='z-99999 h-fit w-fit absolute bottom-18 md:top-5 md:right-[-20] hover:cursor-pointer hover:text-[red]'>X</div>
             </div>
         </section>
     )
