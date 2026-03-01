@@ -14,6 +14,13 @@ const Loader = () => {
     return () => clearInterval(timer);
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, []);
+
   return (
     <div className="flex items-center justify-center w-full h-screen relative">
       <div className="w-20 h-20 border-4 border-t-indigo-500 border-black rounded-full animate-spin"></div>
