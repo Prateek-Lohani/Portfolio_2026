@@ -3,6 +3,7 @@ import { ToastContainer, Zoom } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Loader from "./components/Loader";
 import Skills from "./components/Skills";
+import BackToTop from "./components/BackToTop";
 
 const Experience = React.lazy(() => import("./components/Experience"));
 const BackgroundGrid = React.lazy(() => import("./components/BackgroundGrid"));
@@ -38,6 +39,7 @@ const App = () => {
         <Contact />
         <Footer />
       </Suspense>
+      <BackToTop />
     </>
   );
 };
