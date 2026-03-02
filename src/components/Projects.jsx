@@ -12,6 +12,10 @@ const Projects = () => {
           Curated Works & Technical Projects
         </p>
       </div>
+
+        <div className="max-w-7xl mx-auto mt-[50]">
+          <h1 className="text-xl text-center">Projects are getting updated. Please check back soon.</h1>
+        </div>
     </section>
   );
 };

@@ -5,7 +5,6 @@ import { heroHeaders } from "../data/heroHeaders";
 
 const Hero = () => {
   const [showResume, setShowResume] = useState(false);
-  const [showProfileCard, setShowProfileCard] = useState(false);
   const [currentHeader, setCurrentHeader] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
