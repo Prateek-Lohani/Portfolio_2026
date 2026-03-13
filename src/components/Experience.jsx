@@ -103,8 +103,7 @@ const Experience=()=>{
 
                     {/* Logo */}
                     <div className="flex-shrink-0 w-24 h-20 sm:w-32 sm:h-24 md:w-48 md:h-32 rounded-lg flex items-center justify-center">
-                        <img 
-                       src={logoMap[exp.logo]} className="object-contain max-w-full max-h-full"  />
+                        <img alt={exp.company} src={logoMap[exp.logo]} className="object-contain max-w-full max-h-full"  />
                     </div>
                   </div>
                 </div>

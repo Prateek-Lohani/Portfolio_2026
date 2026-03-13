@@ -15,7 +15,7 @@ const Footer = React.lazy(() => import("./components/Footer"));
 
 const App = () => {
   return (
-    <>
+    <main>
       <ToastContainer
         position="top-right"
         autoClose={3000}
@@ -40,7 +40,7 @@ const App = () => {
         <Footer />
       </Suspense>
       <BackToTop />
-    </>
+    </main>
   );
 };
 
