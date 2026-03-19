@@ -6,7 +6,6 @@ const Projects = () => {
 
   const logoMap = {
     "synapse.png": synapseLogo,
-    // Add other project logos here as needed
     // "weather.png": weatherLogo,
   };
 

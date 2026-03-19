@@ -32,7 +32,6 @@ export const portfolioData = {
       gitRepo:'https://github.com/Prateek-Lohani/AISummarizer',
       live:'https://synapsesummarizer.netlify.app/',
       logo:'synapse.png'
-
     },
   ],
   experience: [
