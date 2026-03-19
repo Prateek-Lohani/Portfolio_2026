@@ -1,12 +1,13 @@
 import { portfolioData } from "../data/portfolioData";
 import synapseLogo from "url:../../public/assets/projects/synapse.png";
+import smashRallyLogo from "url:../../public/assets/projects/smashrally.png";
 
 
 const Projects = () => {
 
   const logoMap = {
     "synapse.png": synapseLogo,
-    // "weather.png": weatherLogo,
+    "smashrally.png": smashRallyLogo,
   };
 
   return (
@@ -70,7 +71,7 @@ const Projects = () => {
                       href={project.gitRepo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-indigo-400 hover:text-indigo-300 transition-colors font-medium"
+                      className="flex items-center gap-2 text-indigo-400 hover:text-indigo-300 transition-colors font-bold"
                     >
                       GitHub →
                     </a>
@@ -78,7 +79,7 @@ const Projects = () => {
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors font-medium"
+                      className="flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors font-bold"
                     >
                       Live →
                     </a>

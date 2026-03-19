@@ -25,13 +25,13 @@ export const portfolioData = {
     },
      {
       id:3,
-      name:'WeatherLive — Weather, instantly.',
-      Tags: ['React', 'TypeScript', 'OpenAI API', 'Tanstack Query', 'Zod'],
-      desc:'Know your weather before you step outside today.',
-      category:'AI',
-      gitRepo:'https://github.com/Prateek-Lohani/AISummarizer',
-      live:'https://synapsesummarizer.netlify.app/',
-      logo:'synapse.png'
+      name:'Smash & Rally — Badminton Guide',
+      Tags: ['Propmt AI', 'Google AI Studio'],
+      desc:'Understand badminton rules, faults, scoring, and match formats easily.',
+      category:'Vibe Coded',
+      gitRepo:'https://github.com/Prateek-Lohani/Smash-Rally',
+      live:'https://smashrally.netlify.app/',
+      logo:'smashrally.png'
     },
   ],
   experience: [
