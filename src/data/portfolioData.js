@@ -1,4 +1,40 @@
 export const portfolioData = {
+  projects: [
+    {
+      id:0,
+      name:'Synapse — Article Summarizer',
+      Tags: ['React', 'TypeScript', 'OpenAI API'],
+      desc:'Paste any URL and get a sharp GPT-4 powered summary in seconds.',
+      category:'AI',
+      categoryBg:'#D97A2B',
+      gitRepo:'https://github.com/Prateek-Lohani/AISummarizer',
+      live:'https://synapsesummarizer.netlify.app/',
+      logo:'synapse.png'
+    },
+    {
+      id:2,
+      name:'WeatherLive — Weather, instantly.',
+      Tags: ['React', 'TypeScript', 'OpenAI API', 'Tanstack Query', 'Zod'],
+      desc:'Know your weather before you step outside today.',
+      category:'Dashboard',
+      categoryBg:'#332192',
+      gitRepo:'https://github.com/Prateek-Lohani/AISummarizer',
+      live:'https://synapsesummarizer.netlify.app/',
+      logo:'synapse.png'
+
+    },
+     {
+      id:3,
+      name:'WeatherLive — Weather, instantly.',
+      Tags: ['React', 'TypeScript', 'OpenAI API', 'Tanstack Query', 'Zod'],
+      desc:'Know your weather before you step outside today.',
+      category:'AI',
+      gitRepo:'https://github.com/Prateek-Lohani/AISummarizer',
+      live:'https://synapsesummarizer.netlify.app/',
+      logo:'synapse.png'
+
+    },
+  ],
   experience: [
     {
       id: 0,
