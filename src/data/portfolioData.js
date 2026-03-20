@@ -26,12 +26,22 @@ export const portfolioData = {
      {
       id:3,
       name:'Smash & Rally — Badminton Guide',
-      Tags: ['Propmt AI', 'Google AI Studio'],
+      Tags: ['Prompt AI', 'Google AI Studio'],
       desc:'Understand badminton rules, faults, scoring, and match formats easily.',
       category:'Vibe Coded',
       gitRepo:'https://github.com/Prateek-Lohani/Smash-Rally',
       live:'https://smashrally.netlify.app/',
       logo:'smashrally.png'
+    },
+    {
+      id:4,
+      name:'TradeMasterLab — Analyze and Invest',
+      Tags: ['Propmt AI', 'Google AI Studio'],
+      desc:'Study markets smartly, analyze charts, test strategies before investing wisely.',
+      category:'Vibe Coded',
+      gitRepo:'https://github.com/Prateek-Lohani/TradeMasterLab',
+      live:'https://trademasterlab.netlify.app/',
+      logo:'trademasterlab.png'
     },
   ],
   experience: [

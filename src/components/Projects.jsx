@@ -1,6 +1,7 @@
 import { portfolioData } from "../data/portfolioData";
 import synapseLogo from "url:../../public/assets/projects/synapse.png";
 import smashRallyLogo from "url:../../public/assets/projects/smashrally.png";
+import trademasterLogo from "url:../../public/assets/projects/trademasterlab.png";
 
 
 const Projects = () => {
@@ -8,6 +9,7 @@ const Projects = () => {
   const logoMap = {
     "synapse.png": synapseLogo,
     "smashrally.png": smashRallyLogo,
+    "trademasterlab.png": trademasterLogo
   };
 
   return (
