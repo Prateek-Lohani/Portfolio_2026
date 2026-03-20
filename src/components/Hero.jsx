@@ -47,7 +47,7 @@ const Hero = () => {
           architecture, focused on building intuitive interfaces that feel fast,
           polished, and purposeful.
         </p>
-        <section className="flex items-center md:w-[25%] justify-center p-[10]">
+        <section className="z-3 flex items-center md:w-[25%] justify-center p-[10]">
           <button
             className="cursor-pointer bg-gradient-to-b from-indigo-500 to-indigo-800 shadow-[0px_6px_30px_0_rgba(99,102,241,.70)] px-8 py-3 rounded-xl border-[1px] border-slate-500 text-white font-medium group"
             onClick={() => setShowResume(true)}

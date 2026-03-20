@@ -131,7 +131,7 @@ const Contact = () => {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-medium mb-2"
+                className="relative z-3 bg-black block text-sm font-medium mb-2"
               >
                 Message
               </label>
@@ -140,7 +140,7 @@ const Contact = () => {
                 name="message"
                 required
                 rows="8"
-                className="w-full px-4 py-2 bg-black border border-slate-600 rounded-lg focus:outline-none focus:border-indigo-500 text-white resize-none"
+                className="relative z-3 w-full px-4 py-2 bg-black border border-slate-600 rounded-lg focus:outline-none focus:border-indigo-500 text-white resize-none"
                 placeholder="Your message ..."
               />
             </div>
@@ -148,7 +148,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={isLoading}
-              className=" bg-indigo-600 hover:cursor-pointer hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed px-6 py-2 rounded-lg font-medium transition-colors"
+              className="relative z-3 bg-indigo-600 hover:cursor-pointer hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed px-6 py-2 rounded-lg font-medium transition-colors"
             >
               {isLoading ? "Sending..." : "Send Message"}
             </button>

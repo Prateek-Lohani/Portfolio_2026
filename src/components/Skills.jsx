@@ -60,7 +60,7 @@ const Skills = () => {
             <div
               key={skill.id}
               data-index={index}
-              className={`skill-item transition-all duration-700 ease-out ${
+              className={`skill-item z-3 transition-all duration-700 ease-out ${
                 visibleItems.has(index)
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-8"
