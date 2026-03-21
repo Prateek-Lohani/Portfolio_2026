@@ -3,10 +3,10 @@ export const portfolioData = {
     {
       id:0,
       name:'Synapse — Article Summarizer',
-      Tags: ['React', 'TypeScript', 'OpenAI API'],
+      Tags: ['React', 'TypeScript', 'OpenAI API', 'Tailwind CSS', 'Redux'],
       desc:'Paste any URL and get a sharp GPT-4 powered summary in seconds.',
       category:'AI',
-      categoryBg:'#D97A2B',
+      categoryBg:'#DA3D20',
       gitRepo:'https://github.com/Prateek-Lohani/AISummarizer',
       live:'https://synapsesummarizer.netlify.app/',
       logo:'synapse.png'
@@ -14,7 +14,7 @@ export const portfolioData = {
     {
       id:2,
       name:'WeatherLive — Weather, instantly.',
-      Tags: ['React', 'TypeScript', 'OpenAI API', 'Tanstack Query', 'Zod'],
+      Tags: ['React', 'TypeScript', 'OpenAI API', 'Tanstack Query', 'Zod', 'Tailwind CSS'],
       desc:'Know your weather before you step outside today.',
       category:'Dashboard',
       categoryBg:'#332192',
@@ -26,9 +26,10 @@ export const portfolioData = {
      {
       id:3,
       name:'Smash & Rally — Badminton Guide',
-      Tags: ['Prompt AI', 'Google AI Studio'],
+      Tags: ['Prompt Engineering', 'Google AI Studio'],
       desc:'Understand badminton rules, faults, scoring, and match formats easily.',
-      category:'Vibe Coded',
+      category:'Built with AI',
+      categoryBg:'#25671E',
       gitRepo:'https://github.com/Prateek-Lohani/Smash-Rally',
       live:'https://smashrally.netlify.app/',
       logo:'smashrally.png'
@@ -36,9 +37,10 @@ export const portfolioData = {
     {
       id:4,
       name:'TradeMasterLab — Analyze and Invest',
-      Tags: ['Propmt AI', 'Google AI Studio'],
+      Tags: ['Prompt Engineering', 'Google AI Studio'],
       desc:'Study markets smartly, analyze charts, test strategies before investing wisely.',
-      category:'Vibe Coded',
+      category:'Built with AI',
+      categoryBg:'#25671E',
       gitRepo:'https://github.com/Prateek-Lohani/TradeMasterLab',
       live:'https://trademasterlab.netlify.app/',
       logo:'trademasterlab.png'
