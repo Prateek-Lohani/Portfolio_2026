@@ -131,6 +131,10 @@ export const portfolioData = {
     { id: 17, name: "MYSQL", icon: "mysql.png" },
     { id: 18, name: "Material UI", icon: "mui.png" },
     { id: 19, name: "Vite", icon: "vite.svg" },
+    { id: 20, name: "Zod", icon: "zod.png" },
+    { id: 21, name: "Docker", icon: "docker.png" },
+    { id: 22, name: "Zustand", icon: "zustand.png" },
+    { id: 23, name: "Grafana", icon: "grafana.png" },
   ],
   navigation: [
     { label: "About", href: "#about" },

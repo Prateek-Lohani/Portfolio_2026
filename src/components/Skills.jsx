@@ -73,7 +73,7 @@ const Skills = () => {
             >
               <div
                 title={skill.name}
-                className="bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-2xl px-6 py-8 flex flex-col items-center justify-center gap-3 h-full hover:shadow-lg hover:shadow-indigo-500/50 transition-shadow duration-300 border-2 border-indigo-500/30"
+                className="bg-[#432DD7] hover:cursor-pointer rounded-2xl px-6 py-8 flex flex-col items-center justify-center gap-3 h-full hover:shadow-lg hover:shadow-indigo-500/50 transition-shadow duration-300 border-2 border-indigo-500/30"
               >
                 <img
                   src={iconMap[skill.icon]}

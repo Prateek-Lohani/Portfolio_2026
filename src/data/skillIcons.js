@@ -17,7 +17,11 @@ import expressIcon from "url:../../public/assets/skills/expressjs.png";
 import mysqlIcon from "url:../../public/assets/skills/mysql.png";
 import muiIcon from "url:../../public/assets/skills/mui.png";
 import viteIcon from "url:../../public/assets/skills/vite.svg";
-import mongodbIcon from "url:../../public/assets/skills/mongodb.png";;
+import mongodbIcon from "url:../../public/assets/skills/mongodb.png";
+import zustandIcon from "url:../../public/assets/skills/zustand.png";
+import zodIcon from "url:../../public/assets/skills/zod.png";
+import dockerIcon from "url:../../public/assets/skills/docker.png";
+import grafanaIcon from "url:../../public/assets/skills/grafana.png";
 
 export const iconMap = {
   "react.png": reactIcon,
@@ -39,5 +43,9 @@ export const iconMap = {
   "mysql.png": mysqlIcon,
   "mui.png": muiIcon,
   "vite.svg": viteIcon,
-  "mongodb.png":mongodbIcon
+  "mongodb.png": mongodbIcon,
+  "zod.png": zodIcon,
+  "zustand.png": zustandIcon,
+  "docker.png": dockerIcon,
+  "grafana.png": grafanaIcon,
 };
